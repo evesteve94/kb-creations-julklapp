@@ -1,0 +1,179 @@
+main {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-image: url(../images/clay.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.intro-box {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.intro-text{
+    background-color: rgba(250, 235, 215, 0.708);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+}
+
+h2, 
+h3,
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(70, 131, 180, 0.797);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card {
+    width: 47%;
+    background-color: rgb(250, 235, 215);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+.button {
+    background-color: white;
+    color: steelblue;
+    border: 0.2rem solid steelblue;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: steelblue;
+    border: 0.2rem solid white;
+    color: white;
+
+}
+
+/* modals */
+.modal {
+    display: none;
+}
+
+.modal-showing {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.824);
+    z-index: 1000; /* Increase the z-index value if necessary */
+}
+
+.modal-content {
+    background-color: rgba(250, 235, 215, 0.852);
+    margin: 15% auto;
+    padding: 1rem;
+    width: 70%;
+    max-width: 400px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.modal-content p {
+    font-family:'Roboto', sans-serif;
+    letter-spacing: normal;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.modal-content h4 {
+    font-size: 1.7rem;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Roboto', sans-serif;
+
+}
+
+.close:hover,
+.close:focus {
+    color:steelblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+/* tablet breakpoint */
+@media (min-width: 660px) {
+    .link-home,
+    .link-contact,
+    .link-silver {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: white;
+        padding: 0 1rem;
+    }
+    
+    .link-keramik {
+        text-decoration: underline;
+        font-size: 1.5rem;
+        color: white;
+        padding: 0 1rem;
+    }
+    .intro {
+        flex-direction: row;
+        }
+    
+        .intro-box,
+        .intro-text {
+            width: 48%;
+        }
+    
+        .card {
+            width: 23%;
+        }
+    
+    
+}
+

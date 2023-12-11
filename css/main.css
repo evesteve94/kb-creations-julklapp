@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+/*HEADER HEADER HEADER*/
+header {
+    background-color:steelblue;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.home-btn {
+    display: none;
+}
+
+.page-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+}
+
+.home-icon {
+    display: none;
+}
+
+.menu-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+    /* margin: 0;
+    margin-left:0; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: steelblue;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .dropdown-content a {
+    color: white;
+    padding:1rem;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+  }
+
+  .dropdown-content a:hover {
+    background-color: white;
+    color: steelblue ;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav {
+    display: none;
+}
+
+/*MAIN MAIN MAIN*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    opacity: 78%;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.card:hover {
+    transform: scale(1.015);
+    transition: 0.4s;
+    opacity: 100%;
+}
+
+h2 {
+    color: steelblue;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: steelblue;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(70, 131, 180, 0.797);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.button {
+    background-color: white;
+    color: steelblue;
+    border: 0.2rem solid steelblue;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: steelblue;
+    border: 0.2rem solid white;
+    color: white;
+
+}
+
+.price {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    color: steelblue;
+}
+
+/* FOOTER FOOTER FOOTER */
+footer{
+    background-color: steelblue;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+}
+
+.logo{
+    height: 5rem;
+}
+
+.footer-cred {
+    margin-top: 1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width: 660px) {
+
+    header {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .home-btn{
+        display: block;
+        position: absolute;
+        float: left;
+    }
+
+    .home-btn:hover {
+        transform: scale(1.1);
+        transition: 0.7s;
+    }
+
+    .logo-title{
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-title{
+        font-size: 3rem;
+    }
+
+    .home-icon{
+        display: none;
+    }
+
+    .dropdown { 
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+    }
+    
+    .nav ul {
+        padding: 0;
+        display: flex;
+        margin-top: 0;
+    }
+    
+    .nav li {
+        list-style: none;
+        display: inline;
+    }
+
+    .nav a:hover{
+        color: steelblue;
+        background-color: white;
+        transition: 0.2s;
+    }
+    
+    .intro,
+    .portfolio,
+    h3,
+    .logo-title{
+        max-width: 1100px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        background-size:auto;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+        
+    .intro-text{
+        font-size: 1.2rem;
+    }
+
+}
