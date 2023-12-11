@@ -15,7 +15,7 @@ async function getSilverProducts() {
         const productResults = filteredProducts.map((product, index) => `
             <section class="card">
                 <h4>${product.name}</h4>
-                <img src="${product.image}" alt="">
+                <img img loading="lazy" src="${product.image}" alt="">
                 <button class="button" id="openModalBtn${index + 1}">Läs mer</button>
             </section>`
         );
