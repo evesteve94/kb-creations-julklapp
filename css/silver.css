@@ -11,7 +11,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     gap: 1rem;
 }
 
@@ -25,6 +25,7 @@ main {
     padding: 0.5rem;
     border-radius: 0.5rem;
     line-height: 1.5;
+    align-self: stretch;
 }
 
 h2, 
