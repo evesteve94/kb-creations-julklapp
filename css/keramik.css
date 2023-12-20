@@ -46,6 +46,10 @@ h3 {
     border-radius: 0.5rem;
 }
 
+h4{
+    font-size: 1rem;
+}
+
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -54,7 +58,7 @@ h3 {
 }
 
 .card {
-    width: 47%;
+    width: 30%;
     background-color: rgb(250, 235, 215);
     padding: 0.5rem;
     display: flex;
@@ -70,12 +74,10 @@ h3 {
 .button {
     background-color: white;
     color: steelblue;
-    border: 0.2rem solid steelblue;
+    border: 3px solid steelblue;
     border-radius: 0.5rem;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
+    padding: 0.2rem 0.5rem;
 }
 
 .button:hover{
@@ -170,11 +172,27 @@ h3 {
         .intro-text {
             width: 48%;
         }
-    
         .card {
-            width: 23%;
+            width: 17%;
         }
     
-    
+        h4{
+            font-size: 1.4rem;
+        }
+        
 }
 
+@media (min-width: 850px) {
+    main {
+        background-position: center;
+    }
+
+    .card {
+        width: 18.7%;
+    }
+
+    h4{
+        font-size: 1.8rem;
+    }
+    
+}

@@ -26,7 +26,7 @@
     {
         "id" : 4,
         "category" : "ceramic",
-        "name" : "Bricka & Skål",
+        "name" : "Bricka",
         "image" : "./creations/fat-kopp.jpg",
         "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
         "price" : "XXX SEK"

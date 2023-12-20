@@ -47,6 +47,10 @@ h3 {
     border-radius: 0.5rem;
 }
 
+h4{
+    font-size: 1rem;
+}
+
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +59,7 @@ h3 {
 }
 
 .card {
-    width: 47%;
+    width: 30%;
     background-color: rgb(250, 235, 215);
     padding: 0.5rem;
     display: flex;
@@ -145,8 +149,13 @@ h3 {
     }
 
     .card {
-        width: 23%;
+        width: 17%;
     }
+
+    h4{
+        font-size: 1.4rem;
+    }
+    
 
     .link-silver,
     .link-contact,
@@ -166,8 +175,17 @@ h3 {
     
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
     main {
         background-position: center;
     }
+
+    .card {
+        width: 18.7%;
+    }
+
+    h4{
+        font-size: 1.8rem;
+    }
+    
 }
