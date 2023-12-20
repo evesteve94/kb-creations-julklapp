@@ -26,6 +26,7 @@ async function getCeramicProducts() {
                 <div class="modal-content">
                     <span class="close" id="closeModalBtn${index + 1}">x</span>
                     <h4>${product.name}</h4>
+                    <img img loading="lazy" src="${product.image}" alt="">
                     <p>${product.description}</p>
                     <p class="price">${product.price}</p>
                 </div>
