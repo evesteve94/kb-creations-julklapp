@@ -62,5 +62,61 @@
         "image" : "./creations/key-ring.jpg",
         "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
         "price" : "XXX SEK"
+    },
+    {
+        "id" : 9,
+        "category" : "ceramic",
+        "name" : "Ljusstake",
+        "image" : "./creations/ljus.jpg",
+        "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
+        "price" : "XXX SEK"
+    },
+    {
+        "id" : 10,
+        "category" : "ceramic",
+        "name" : "Blomvas",
+        "image" : "./creations/blomvas.jpg",
+        "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
+        "price" : "XXX SEK"
+    },
+    {
+        "id" : 11,
+        "category" : "ceramic",
+        "name" : "Juldekoration",
+        "image" : "./creations/juldekoration.jpg",
+        "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
+        "price" : "XXX SEK"
+    },
+    {
+        "id" : 12,
+        "category" : "ceramic",
+        "name" : "Julgran",
+        "image" : "./creations/julgran.jpg",
+        "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
+        "price" : "XXX SEK"
+    },
+    {
+        "id" : 13,
+        "category" : "ceramic",
+        "name" : "Skål",
+        "image" : "./creations/randig.jpg",
+        "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
+        "price" : "XXX SEK"
+    },
+    {
+        "id" : 14,
+        "category" : "ceramic",
+        "name" : "Fat",
+        "image" : "./creations/rutigt-fat.jpg",
+        "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
+        "price" : "XXX SEK"
+    },
+    {
+        "id" : 15,
+        "category" : "ceramic",
+        "name" : "Saltkar",
+        "image" : "./creations/saltkar.jpg",
+        "description" : "I den här modalen kan du beskriva din process! Till exempel vilka material du har använt, vilka verktyg, svårighetsgraden osv. Det kan också vara kul att ge en bakgrundshistoria till inspirationen bakom ‘the creation’, samt om den är till salu eller inte. Du får skriva vad du vill helt enkelt!",
+        "price" : "XXX SEK"
     }
 ]

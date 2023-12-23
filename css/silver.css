@@ -114,7 +114,7 @@ h3 {
 
 .modal-content img {
     width: 100%;
-    border-radius: 100%;
+    border-radius: 0.5rem;
     max-width: 250px;
 }
 
@@ -199,7 +199,7 @@ h3 {
     
     .modal-content {
         background-color: rgba(250, 235, 215, 0.852);
-        margin: 5% auto;
+        margin: 1% auto;
         padding: 1rem;
         width: 95%;
         max-width: 600px;

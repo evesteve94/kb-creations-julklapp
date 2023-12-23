@@ -9,7 +9,7 @@ async function getProducts() {
         const products = await response.json();
         // loopa igenom arrayen
         const filteredProducts = products
-            .filter(product => product.id <= 8);
+            .filter(product => product.id <= 10);
         
         const productResults = filteredProducts.map((product, index) => `
             <section class="card">
